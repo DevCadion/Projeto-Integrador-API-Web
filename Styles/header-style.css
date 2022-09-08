@@ -23,38 +23,38 @@
   background-color: green;
   color: white;
   flex: 1;
-  font-size: 12px;
+  font-size: 0.75rem;
   display: flex;
   /* flex-direction: center; */
   justify-content: center;
-  min-width: 250px;
+  min-width: 15.625rem;
 }
 
 .search {
   color: yellow;
   flex: 1;
-  max-width: 200px;
-  min-width: 120px;
+  max-width: 12.5rem;
+  min-width: 7.5rem;
   display: flex;
 }
 .search-bar {
-  margin-left: 5px;
-  margin-right: 5px;
-  margin-top: 12px;
-  margin-bottom: 12px;
-  min-width: 50px;
+  margin-left: 0.3rem;
+  margin-right: 0.3rem;
+  margin-top: 0.75rem;
+  margin-bottom: 0.75rem;
+  min-width: 3.125rem;
   /* position: absolute; */
   flex: 1;
-  height: 20px;
-  padding-left: 10px;
+  height: 1.25rem;
+  padding-left: 0.625rem;
   border-width: 1px;
   border-style: solid;
-  border-radius: 6px;
+  border-radius: 0.375rem;
   box-shadow: inset 1px 2px 3px rgba(0, 0, 0, 0.05);
   width: 0;
 }
 .social-media {
-  width: 90px;
+  width: 5.625rem;
 }
 .home-tab {
   margin-left: 0.3rem;
