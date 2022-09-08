@@ -14,9 +14,9 @@
 .logo {
   color: white;
   flex: 1;
-  width: 10px;
-  max-width: 160px;
-  min-width: 130px;
+  width: 10rem;
+  max-width: 15rem;
+  min-width: 8rem;
 }
 
 .tabs {
