@@ -1,0 +1,74 @@
+.main-nav {
+  background-color: rgb(74, 0, 144);
+  height: 50px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 0;
+  top: 0;
+  width: 100%;
+  position: absolute;
+  z-index: 1;
+}
+
+.logo {
+  color: white;
+  flex: 1;
+  width: 10px;
+  max-width: 160px;
+  min-width: 130px;
+}
+
+.tabs {
+  background-color: green;
+  color: white;
+  flex: 1;
+  font-size: 12px;
+  display: flex;
+  /* flex-direction: center; */
+  justify-content: center;
+  min-width: 250px;
+}
+
+.search {
+  color: yellow;
+  flex: 1;
+  max-width: 200px;
+  min-width: 120px;
+  display: flex;
+}
+.search-bar {
+  margin-left: 5px;
+  margin-right: 5px;
+  margin-top: 12px;
+  margin-bottom: 12px;
+  min-width: 50px;
+  /* position: absolute; */
+  flex: 1;
+  height: 20px;
+  padding-left: 10px;
+  border-width: 1px;
+  border-style: solid;
+  border-radius: 6px;
+  box-shadow: inset 1px 2px 3px rgba(0, 0, 0, 0.05);
+  width: 0;
+}
+.social-media {
+  width: 90px;
+}
+.home-tab {
+  margin-left: 5px;
+  margin-right: 5px;
+}
+.resto-tab {
+  margin-left: 5px;
+  margin-right: 5px;
+}
+.blog-tab {
+  margin-left: 5px;
+  margin-right: 5px;
+}
+.contact-tab {
+  margin-left: 5px;
+  margin-right: 5px;
+}
