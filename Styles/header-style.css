@@ -58,6 +58,12 @@
   margin-left: 0.3rem;
   margin-right: 0.3rem;
 }
+.home-btn,
+.resto-btn,
+.blog-btn,
+.contact-btn {
+  text-decoration: none;
+}
 .resto-tab {
   margin-left: 0.3rem;
   margin-right: 0.3rem;
