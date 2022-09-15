@@ -1,0 +1,18 @@
+.top-info {
+  background-color: blue;
+  display: flex;
+  width: 100%;
+  height: 25rem;
+}
+
+.left-info-part {
+  flex: 1;
+  background-color: green;
+  width: 1fr;
+}
+
+.right-info-part {
+  flex: 1;
+  background-color: yellow;
+  width: 1fr;
+}
