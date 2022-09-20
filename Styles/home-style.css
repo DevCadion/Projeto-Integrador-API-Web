@@ -1,18 +1,34 @@
 .top-info {
-  background-color: blue;
+  background-color: rgb(74, 0, 144);
   display: flex;
   width: 100%;
   height: 25rem;
+  margin-bottom: 2rem;
 }
 
 .left-info-part {
   flex: 1;
   background-color: green;
   width: 1fr;
+  margin: 0.5rem;
 }
 
 .right-info-part {
   flex: 1;
   background-color: yellow;
   width: 1fr;
+  margin: 0.5rem;
+}
+
+.bottom-info {
+  background-color: rgb(74, 0, 144);
+  display: flex;
+  height: 25rem;
+  margin-bottom: 2rem;
+}
+
+.footer {
+  background-color: rgb(74, 0, 144);
+  height: 10rem;
+  margin-bottom: 1rem;
 }
