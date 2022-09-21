@@ -12,6 +12,7 @@
   width: 100%;
   position: fixed;
   z-index: 100;
+  border-bottom: 0.5rem solid rgb(37, 37, 37);
 }
 
 .logo {
@@ -20,13 +21,16 @@
   max-width: 15rem;
   min-width: 8rem;
   align-items: center;
+  justify-content: center;
+  display: flex;
+  padding: 0.3rem;
+  /* cursor: pointer; */
 }
 
 .tabs {
   flex: 1;
   font-size: 0.75rem;
   display: flex;
-  /* flex-direction: center; */
   justify-content: center;
   align-items: center;
   min-width: 15.625rem;
@@ -38,14 +42,14 @@
   max-width: 12.5rem;
   min-width: 7.5rem;
   display: flex;
+  align-items: center;
 }
 .search-bar {
-  margin-left: 0.3rem;
-  margin-right: 0.3rem;
+  margin-left: 0.6rem;
+  margin-right: 0.6rem;
   margin-top: 0.75rem;
   margin-bottom: 0.75rem;
   min-width: 3.125rem;
-  /* position: absolute; */
   flex: 1;
   height: 1.25rem;
   padding-left: 0.625rem;
@@ -56,29 +60,37 @@
   width: 0;
 }
 .social-media {
-  width: 5.625rem;
+  flex: 1;
+  display: flex;
+  max-width: 8rem;
   align-items: center;
-}
-.home-tab {
   margin-left: 0.3rem;
   margin-right: 0.3rem;
 }
+
 .home-btn,
 .resto-btn,
 .blog-btn,
 .contact-btn {
   text-decoration: none;
   color: white;
-}
-.resto-tab {
   margin-left: 0.3rem;
   margin-right: 0.3rem;
 }
-.blog-tab {
-  margin-left: 0.3rem;
-  margin-right: 0.3rem;
+/* .wp-icon {
 }
-.contact-tab {
-  margin-left: 0.3rem;
-  margin-right: 0.3rem;
+.inst-icon {
+}
+.fb-icon {
+} */
+.wp-icon,
+.inst-icon,
+.fb-icon {
+  flex: 1;
+  height: 1.4rem;
+  max-width: 1.4rem;
+  margin: 0.3rem;
+  cursor: pointer;
+  filter: invert(100%) sepia(100%) saturate(100%) hue-rotate(1deg)
+    brightness(100%) contrast(100%);
 }
