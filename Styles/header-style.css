@@ -29,7 +29,7 @@
 
 .tabs {
   flex: 1;
-  font-size: 0.75rem;
+  font-size: 0.8rem;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -74,8 +74,8 @@
 .contact-btn {
   text-decoration: none;
   color: white;
-  margin-left: 0.3rem;
-  margin-right: 0.3rem;
+  margin-left: 0.5rem;
+  margin-right: 0.5rem;
 }
 /* .wp-icon {
 }
