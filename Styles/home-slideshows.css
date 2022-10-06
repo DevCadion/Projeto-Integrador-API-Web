@@ -1,4 +1,5 @@
-/* ------------left-slideshow-------------------- */
+/* ----------------left-slideshow-------------------- */
+
 .slidershow {
   flex: 1;
   /* background-color: green; */
@@ -42,10 +43,6 @@ input[name="r"] {
   height: 100%;
   display: flex;
 }
-.slide {
-  width: 20%;
-  transition: 0.4s;
-}
 .slide img {
   width: 100%;
   height: 100%;
@@ -60,6 +57,7 @@ input[name="r"] {
   margin-left: -40%;
 }
 /* --------------------------------------------------- */
+/* ----------------right-slideshow-------------------- */
 
 .right-info-part {
   flex: 1;
@@ -111,3 +109,4 @@ input[name="r-2"] {
   position: absolute;
   visibility: hidden;
 }
+/* --------------------------------------------------- */
