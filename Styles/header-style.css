@@ -1,5 +1,5 @@
 .main-nav {
-  background-color: rgb(74, 0, 144);
+  background-color: #121719;
   height: 3.2rem;
 
   display: flex;
@@ -12,7 +12,7 @@
   width: 100%;
   position: fixed;
   z-index: 100;
-  border-bottom: 0.5rem solid rgb(37, 37, 37);
+  border-bottom: 0.5rem solid #121719;
 }
 
 .logo {

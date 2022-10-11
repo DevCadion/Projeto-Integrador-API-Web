@@ -1,9 +1,12 @@
 body {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
-  background-color: rgb(37, 37, 37);
+    background-color: #bae1f2;
   color: white;
   padding-top: 2rem;
 }
 p{
   font-size: 1.5rem;
+}
+div {
+  font-size: 1.3rem;
 }
