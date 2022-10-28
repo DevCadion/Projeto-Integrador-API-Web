@@ -76,6 +76,7 @@
   color: white;
   margin-left: 0.5rem;
   margin-right: 0.5rem;
+  font-size: 0.9rem;
 }
 /* .wp-icon {
 }
@@ -93,4 +94,16 @@
   cursor: pointer;
   filter: invert(100%) sepia(100%) saturate(100%) hue-rotate(1deg)
     brightness(100%) contrast(100%);
+}
+
+@media screen and (min-width: 400px) {
+  body {
+    font-size: 13px;
+  }
+}
+
+@media screen and (min-width: 800px) {
+  body {
+    font-size: 16px;
+  }
 }
