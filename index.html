@@ -8,14 +8,21 @@
     <link rel="stylesheet" href="/Styles/general-style.css" />
     <link rel="stylesheet" href="/Styles/home-style.css" />
     <link rel="stylesheet" href="/Styles/home-slideshows.css" />
-    <script src="/main.js"></script>
-    <title>Empório do Comércio</title>
+    <script src="/main.js" async></script>
+    <title>Home-Empório do Comércio</title>
   </head>
   <body class="body">
     <nav class="main-nav">
-      <div class="logo">
-        Empório de Comércio
-        <img src="" alt="" />
+      <div class="dropdown">
+        <button onclick="myFunction()" class="dropbtn">
+          Empório do Comércio
+        </button>
+        <div id="myDropdown" class="dropdown-content">
+          <a href="/index.html">Home</a>
+          <a href="/restaurantes.html">Restaurantes</a>
+          <a href="/blog.html">Blog</a>
+          <a href="/contato.html">Contato</a>
+        </div>
       </div>
       <div class="tabs">
         <p class="home-tab"><a class="home-btn" href="/index.html">Home</a></p>

@@ -1,7 +1,7 @@
 .main-nav {
-  background-color: #121719;
-  height: 3.2rem;
-
+  background-color: rgb(74, 0, 144);
+  height: 8.2rem;
+  font-size: 1.8rem;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -12,24 +12,21 @@
   width: 100%;
   position: fixed;
   z-index: 100;
-  border-bottom: 0.5rem solid #121719;
+  border-bottom: 0.5rem solid rgb(37, 37, 37);
 }
 
-.logo {
+.dropdown {
   flex: 1;
-  width: 10rem;
-  max-width: 15rem;
+  width: 8rem;
+  max-width: 12rem;
   min-width: 8rem;
-  align-items: center;
-  justify-content: center;
   display: flex;
   padding: 0.3rem;
-  /* cursor: pointer; */
 }
 
 .tabs {
   flex: 1;
-  font-size: 0.8rem;
+  font-size: 1.8rem;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -39,30 +36,28 @@
 .search {
   color: yellow;
   flex: 1;
-  max-width: 12.5rem;
+  max-width: 20rem;
   min-width: 7.5rem;
   display: flex;
   align-items: center;
 }
 .search-bar {
-  margin-left: 0.6rem;
-  margin-right: 0.6rem;
-  margin-top: 0.75rem;
-  margin-bottom: 0.75rem;
+  margin: 0.6rem 0.75rem 0.6rem 0.75rem;
   min-width: 3.125rem;
   flex: 1;
-  height: 1.25rem;
+  height: 2.5rem;
   padding-left: 0.625rem;
   border-width: 1px;
   border-style: solid;
   border-radius: 0.375rem;
   box-shadow: inset 1px 2px 3px rgba(0, 0, 0, 0.05);
   width: 0;
+  font-size: 1.8rem;
 }
 .social-media {
   flex: 1;
   display: flex;
-  max-width: 8rem;
+  max-width: 12rem;
   align-items: center;
   margin-left: 0.3rem;
   margin-right: 0.3rem;
@@ -76,7 +71,6 @@
   color: white;
   margin-left: 0.5rem;
   margin-right: 0.5rem;
-  font-size: 0.9rem;
 }
 /* .wp-icon {
 }
@@ -88,22 +82,57 @@
 .inst-icon,
 .fb-icon {
   flex: 1;
-  height: 1.4rem;
-  max-width: 1.4rem;
+  height: 2.4rem;
+  max-width: 2.4rem;
   margin: 0.3rem;
   cursor: pointer;
   filter: invert(100%) sepia(100%) saturate(100%) hue-rotate(1deg)
     brightness(100%) contrast(100%);
 }
 
-@media screen and (min-width: 400px) {
-  body {
-    font-size: 13px;
-  }
+/* Dropdown Button */
+.dropbtn {
+  background-color: rgb(74, 0, 144);
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
 }
 
-@media screen and (min-width: 800px) {
-  body {
-    font-size: 16px;
-  }
+.dropbtn:hover {
+  background-color: #2980b9;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+/* Dropdown content (hidden by default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: rgb(74, 0, 144);
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: white;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+/*The color that appears when hovering on menu items*/
+.dropdown-content a:hover {
+  background-color: #2980b9;
+}
+
+/* Show the dropdown menu */
+.show {
+  display: block;
 }

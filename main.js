@@ -1,7 +1,19 @@
-// var whatsappLink = document.getElementsByClassName("wp-icon");
-// var instagramLink = document.getElementsByClassName("inst-icon");
-// var facebookLink = document.getElementsByClassName("fb-icon");
+/* When the user clicks on the button,
+toggle between hiding and showing the dropdown content */
+function myFunction() {
+  document.getElementById("myDropdown").classList.toggle("show");
+}
 
-// whatsappLink.onclick = function () {
-//   window.location.href = "http://whatsapp.com";
-// };
+// Close the dropdown menu if the user clicks outside of it
+window.onclick = function (event) {
+  if (!event.target.matches(".dropbtn")) {
+    var dropdowns = document.getElementsByClassName("dropdown-content");
+    var i;
+    for (i = 0; i < dropdowns.length; i++) {
+      var openDropdown = dropdowns[i];
+      if (openDropdown.classList.contains("show")) {
+        openDropdown.classList.remove("show");
+      }
+    }
+  }
+};

@@ -1,12 +1,102 @@
 body {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
-  background-color: #bae1f2;
+  background-color: rgb(37, 37, 37);
   color: white;
-  padding-top: 2rem;
+  padding-top: 8rem;
+  font-size: 1.8rem;
 }
-/* p {
-  font-size: 1.5rem;
-} */
-/* div {
-  font-size: 1.3rem;
-} */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+h1 {
+  font-size: 6rem;
+}
+
+@media only screen and (max-width: 1024px) {
+  body {
+    background-color: orange;
+  }
+}
+@media only screen and (max-width: 768px) {
+  body {
+    background-color: green;
+  }
+  h1 {
+    font-size: 3rem;
+  }
+  * {
+    font-size: 1.5rem;
+  }
+  .search {
+    max-width: 8rem;
+    min-width: 1.5rem;
+  }
+  .search-bar {
+    height: 2rem;
+    font-size: 1.2rem;
+    margin-right: 0;
+  }
+  .wp-icon,
+  .inst-icon,
+  .fb-icon {
+    height: 1.7rem;
+    max-width: 1.7rem;
+  }
+  .home-btn,
+  .resto-btn,
+  .blog-btn,
+  .contact-btn {
+    margin-left: 0.3rem;
+    margin-right: 0.3rem;
+    font-size: 1.4rem;
+  }
+  .social-media {
+    position: fixed;
+    right: 0;
+  }
+}
+
+@media only screen and (max-width: 375px) {
+  body {
+    background-color: red;
+  }
+  h1 {
+    font-size: 2.7rem;
+  }
+  * {
+    font-size: 1.2rem;
+  }
+  .search {
+    max-width: 7rem;
+    min-width: 1.2rem;
+  }
+  .search-bar {
+    height: 1.8rem;
+    font-size: 1rem;
+    margin-right: 0;
+  }
+  .wp-icon,
+  .inst-icon,
+  .fb-icon {
+    height: 1.4rem;
+    max-width: 1.4rem;
+  }
+  .home-btn,
+  .resto-btn,
+  .blog-btn,
+  .contact-btn {
+    margin-left: 0.2rem;
+    margin-right: 0.2rem;
+    font-size: 1.1rem;
+  }
+  .social-media {
+    position: fixed;
+    right: 0;
+  }
+}
