@@ -100,3 +100,8 @@ h1 {
     right: 0;
   }
 }
+
+.resto-links {
+  text-decoration: none;
+  color: crimson;
+}
