@@ -1,5 +1,5 @@
 .main-nav {
-  background-color: rgb(74, 0, 144);
+  background-color: rgb(5, 174, 200);
   height: 8.2rem;
   font-size: 1.8rem;
   display: flex;
@@ -66,6 +66,7 @@
 .home-btn,
 .resto-btn,
 .blog-btn,
+.pontos-btn,
 .contact-btn {
   text-decoration: none;
   color: white;
@@ -87,7 +88,7 @@
 
 /* Dropdown Button */
 .dropbtn {
-  background-color: rgb(74, 0, 144);
+  background-color: rgb(5, 174, 200);
   color: white;
   padding: 16px;
   font-size: 16px;
@@ -109,7 +110,7 @@
 .dropdown-content {
   display: none;
   position: absolute;
-  background-color: rgb(74, 0, 144);
+  background-color: rgb(5, 174, 200);
   min-width: 160px;
   box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
   z-index: 1;
