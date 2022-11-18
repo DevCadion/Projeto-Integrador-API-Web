@@ -5,7 +5,8 @@
   margin-bottom: 2rem;
   padding: 0.8rem;
   white-space: normal;
-  overflow: overlay;
+  overflow: auto;
+  text-align: justify;
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: space-between;
@@ -13,11 +14,13 @@
 }
 .top-stories {
   width: 400px;
-  margin: 0 0.25rem 1rem 0.25rem;
+  margin: 0.5rem;
+  padding-right: 5rem;
 }
 .top-div-pic {
   width: 400px;
   height: 350px;
+  padding-right: 5rem;
 }
 
 .bottom-info {
@@ -35,7 +38,7 @@
   background-color: rgb(220, 239, 255);
   height: 10rem;
   margin-bottom: 1rem;
-  padding: 0.8rem;
+  padding: 0.8rem 1.5rem 0.8rem 0.8rem;
   white-space: normal;
   overflow: overlay;
 }

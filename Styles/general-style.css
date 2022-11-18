@@ -2,7 +2,7 @@ body {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   background-color: rgb(5, 174, 200);
   color: rgb(5, 5, 5);
-  padding-top: 8rem;
+  padding: 8rem 1.3rem 1.3rem 1.3rem;
   font-size: 1.8rem;
 }
 * {
@@ -92,16 +92,11 @@ h1 {
     visibility: hidden;
     min-width: 9rem;
   }
-}
-@media only screen and (max-width: 420px) {
-  .top-info {
-    width: 100vw;
+  .top-stories {
+    max-width: 100vw;
   }
-  /* .top-stories {
-    width: 100vw;
-  } */
   .top-div-pic {
-    width: 100vw;
+    max-width: 100vw;
   }
 }
 
@@ -113,7 +108,7 @@ h1 {
     font-size: 2.2rem;
   }
   * {
-    font-size: 1rem;
+    font-size: 1.2rem;
   }
   .welcome {
     font-size: 3rem;
