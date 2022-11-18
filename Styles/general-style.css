@@ -1,6 +1,6 @@
 body {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
-  background-color: rgb(5, 174,200);
+  background-color: rgb(5, 174, 200);
   color: rgb(5, 5, 5);
   padding-top: 8rem;
   font-size: 1.8rem;
@@ -51,7 +51,8 @@ h1 {
   .home-btn,
   .resto-btn,
   .blog-btn,
-  .contact-btn {
+  .contact-btn,
+  .pontos-btn {
     margin-left: 0.3rem;
     margin-right: 0.3rem;
     font-size: 1.4rem;
@@ -61,25 +62,49 @@ h1 {
     right: 0;
   }
 }
+@media only screen and (max-width: 529px) {
+  .dropbtn {
+    font-size: 1.2rem;
+    max-width: 8rem;
+    max-height: 7rem;
+  }
+  .dropdown {
+    max-width: 10rem;
+  }
+  .home-btn,
+  .resto-btn,
+  .blog-btn,
+  .contact-btn,
+  .pontos-btn {
+    margin-left: 0.3rem;
+    margin-right: 0.3rem;
+    font-size: 1.2rem;
+  }
+}
+@media only screen and (max-width: 453px) {
+  .tabs {
+    visibility: hidden;
+    min-width: 9rem;
+  }
+}
 
 @media only screen and (max-width: 375px) {
   body {
     background-color: red;
   }
   h1 {
-    font-size: 2.7rem;
+    font-size: 2.2rem;
   }
   * {
-    font-size: 1.2rem;
+    font-size: 1rem;
   }
   .search {
     max-width: 7rem;
-    min-width: 1.2rem;
   }
   .search-bar {
     height: 1.8rem;
     font-size: 1rem;
-    margin-right: 0;
+    margin-right: 0.1rem;
   }
   .wp-icon,
   .inst-icon,
@@ -90,7 +115,8 @@ h1 {
   .home-btn,
   .resto-btn,
   .blog-btn,
-  .contact-btn {
+  .contact-btn,
+  .pontos-btn {
     margin-left: 0.2rem;
     margin-right: 0.2rem;
     font-size: 1.1rem;
@@ -103,5 +129,5 @@ h1 {
 
 .resto-links {
   text-decoration: none;
-  color: crimson;
+  color: rgb(5, 174, 200);
 }
