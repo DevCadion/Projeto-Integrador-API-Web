@@ -9,34 +9,15 @@
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: space-between;
-}
-.top-info-resto {
-  background-color: rgb(220, 239, 255);
-  display: flex;
-  height: 42rem;
-  margin-bottom: 2rem;
-  padding: 0.8rem;
-  white-space: normal;
-  overflow: overlay;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: space-between;
-}
-.top-div-pic {
-  width: 400px;
-  height: 350px;
+  right: 0;
 }
 .top-stories {
   width: 400px;
   margin: 0 0.25rem 1rem 0.25rem;
 }
-.top-div-pic-resto {
-  width: 450px;
-  height: 400px;
-}
-.top-stories-resto {
-  width: 450px;
-  margin: 0 0.25rem 0 0.25rem;
+.top-div-pic {
+  width: 400px;
+  height: 350px;
 }
 
 .bottom-info {
@@ -81,7 +62,7 @@
 .wlcm-logo {
   flex: 1;
   place-self: center;
-  font-size: 8rem;
+  font-size: 7rem;
   text-align: center;
 }
 .top-img-part {
