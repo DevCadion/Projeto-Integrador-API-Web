@@ -2,7 +2,7 @@ body {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   background-color: rgb(5, 174, 200);
   color: rgb(5, 5, 5);
-  padding: 8rem 1.3rem 1.3rem 1.3rem;
+  padding: 8rem 0rem 1.3rem 0rem;
   font-size: 1.8rem;
 }
 * {
