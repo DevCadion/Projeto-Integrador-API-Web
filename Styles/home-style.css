@@ -64,14 +64,15 @@
   background-image: url(/Images/Ibis-Hotel.jpg);
   background-repeat: no-repeat;
   background-size: cover;
-  background-color: rgb(74, 0, 144);
+  max-width: 100vw;
+  padding-right: 2rem;
   display: flex;
-  height: 55rem;
+  height: 35rem;
   margin-bottom: 2rem;
-  padding: 0.8rem;
   flex-direction: column;
 }
 .wlcm-logo {
+  color: rgb(5, 174, 200);
   flex: 1;
   place-self: center;
   font-size: 7rem;
