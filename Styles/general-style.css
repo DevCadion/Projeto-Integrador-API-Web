@@ -3,7 +3,7 @@ body {
   background-color: rgb(5, 174, 200);
   color: rgb(5, 5, 5);
   padding: 8rem 0rem 1.3rem 0rem;
-  font-size: 1.8rem;
+  font-size: 1.6rem;
 }
 * {
   margin: 0;
@@ -91,6 +91,12 @@ h1 {
     margin-right: 0.3rem;
     font-size: 1.2rem;
   }
+  .menu1,
+  .menu2,
+  .menu3,
+  .menu4 {
+    font-size: 1.2rem;
+  }
 }
 @media only screen and (max-width: 453px) {
   .tabs {
@@ -140,6 +146,12 @@ h1 {
     margin-left: 0.2rem;
     margin-right: 0.2rem;
     font-size: 1.1rem;
+  }
+  .menu1,
+  .menu2,
+  .menu3,
+  .menu4 {
+    font-size: 1rem;
   }
   .social-media {
     position: fixed;
