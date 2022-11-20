@@ -103,7 +103,12 @@
 }
 .top-info-slides {
   background-color: blue;
-  display: flex;
+  width: 1fr;
+  height: 42.5rem;
+}
+.mySlides {
+  width: 100%;
+  height: 100%;
 }
 .menu1,
 .menu2,
