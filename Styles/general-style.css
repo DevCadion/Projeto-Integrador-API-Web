@@ -2,7 +2,7 @@ body {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   background-color: rgb(5, 174, 200);
   color: rgb(5, 5, 5);
-  padding: 8rem 0rem 1.3rem 0rem;
+  padding: 8rem 0.7rem 0rem 0.7rem;
   font-size: 1.6rem;
 }
 * {
@@ -21,11 +21,6 @@ h1 {
 @media only screen and (max-width: 1024px) {
   body {
     background-color: orange;
-  }
-}
-@media only screen and (max-width: 861px) {
-  .top-div-pic {
-    height: auto;
   }
 }
 @media only screen and (max-width: 768px) {
@@ -101,13 +96,7 @@ h1 {
 @media only screen and (max-width: 453px) {
   .tabs {
     visibility: hidden;
-    min-width: 9rem;
-  }
-  .top-stories {
-    max-width: 100vw;
-  }
-  .top-div-pic {
-    max-width: 100vw;
+    min-width: 1rem;
   }
 }
 
