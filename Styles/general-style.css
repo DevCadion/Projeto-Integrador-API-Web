@@ -37,13 +37,16 @@ h1 {
     font-size: 5rem;
   }
   .search {
-    max-width: 8rem;
-    min-width: 1.5rem;
+    max-width: 12rem;
+    min-width: 4rem;
   }
   .search-bar {
     height: 2rem;
     font-size: 1.2rem;
     margin-right: 0;
+  }
+  #myUL li a {
+    width: 11rem;
   }
   .wp-icon,
   .inst-icon,
@@ -71,7 +74,7 @@ h1 {
   }
   .dropbtn {
     font-size: 1.2rem;
-    max-width: 8rem;
+    max-width: 7rem;
     max-height: 7rem;
   }
   .dropdown {
@@ -96,7 +99,8 @@ h1 {
 @media only screen and (max-width: 453px) {
   .tabs {
     visibility: hidden;
-    min-width: 1rem;
+    min-width: 0.1px;
+    max-width: 0.2px;
   }
 }
 
@@ -114,7 +118,12 @@ h1 {
     font-size: 3rem;
   }
   .search {
-    max-width: 7rem;
+    min-width: 6rem;
+    max-width: 10rem;
+  }
+  #myUL li a {
+    font-size: 1rem;
+    width: 9rem;
   }
   .search-bar {
     height: 1.8rem;

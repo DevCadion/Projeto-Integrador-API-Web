@@ -147,18 +147,19 @@
   position: absolute;
   top: 5.5rem;
   left: 6%;
-  font-size: 1.6rem;
+  font-size: 1rem;
   display: none;
 }
 #myUL li a {
   border: 1px solid #ddd; /* Add a border to all links */
   margin-top: -1px; /* Prevent double borders */
   background-color: rgb(5, 174, 200); /* Grey background color */
-  padding: 12px; /* Add some padding */
+  padding: 0.6rem; /* Add some padding */
   text-decoration: none; /* Remove default text underline */
-  font-size: 1.6rem; /* Increase the font-size */
+  font-size: 1.4rem; /* Increase the font-size */
   color: white; /* Add a black text color */
   display: block; /* Make it into a block element to fill the whole list */
+  width: 13rem;
 }
 #myUL li a:hover:not(.header) {
   background-color: #2980b9; /* Add a hover effect to all links, except for headers */
