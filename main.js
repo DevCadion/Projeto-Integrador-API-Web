@@ -35,3 +35,15 @@ function searchFunction() {
     }
   }
 }
+
+//Show the list on input value
+function showList() {
+  var x = document.getElementById("myUL");
+  var input = document.getElementById("searchInput");
+  // x.style.desplay = "block";
+  if (input.value.length === 0) {
+    x.style.display = "none";
+  } else {
+    x.style.display = "block";
+  }
+}
