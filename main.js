@@ -16,15 +16,14 @@ window.onclick = function (event) {
     }
   }
 };
-
+/////////////////////////////////////////////////////////////
 function searchFunction() {
   // Declare variables
   var input, filter, ul, li, a, i, txtValue;
   input = document.getElementById("searchInput");
   filter = input.value.toUpperCase();
   ul = document.getElementById("myUL");
-  li = ul.getElementsByTagName("li");
-
+  li = document.getElementsByTagName("li");
   // Loop through all list items, and hide those who don't match the search query
   for (i = 0; i < li.length; i++) {
     a = li[i].getElementsByTagName("a")[0];
