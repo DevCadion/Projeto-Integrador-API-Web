@@ -78,11 +78,47 @@
 
 .footer {
   background-color: rgb(220, 239, 255);
-  height: 35rem;
+  height: 33rem;
   padding: 0.8rem 1.5rem 0.8rem 0.8rem;
-  margin: 0rem 1rem 0rem 1rem;
+  margin: 0rem 1rem 1rem 1rem;
   white-space: normal;
   overflow: overlay;
+  display: flex;
+  flex-direction: row;
+}
+.left-footer {
+  flex: 1;
+  margin-right: 1rem;
+  max-width: 30rem;
+}
+.footer-logo {
+  color: rgb(5, 174, 200);
+}
+.footer-pic {
+  margin-top: 2rem;
+  width: 20rem;
+  height: 5rem;
+}
+.middle-footer {
+  flex: 1;
+  margin-right: 1rem;
+  display: flex;
+  flex-direction: row;
+}
+.footer-h5s {
+  color: rgb(5, 174, 200);
+  margin-bottom: 3rem;
+}
+.middle-footer-divs {
+  margin-right: 2rem;
+}
+.footer-links {
+  text-decoration: none;
+  color: rgb(5, 174, 200);
+  margin-bottom: 1rem;
+}
+.right-footer {
+  flex: 1;
 }
 .home-pic {
   background-image: url(/Images/Ibis-Hotel.jpg);
