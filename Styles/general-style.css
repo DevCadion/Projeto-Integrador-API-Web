@@ -18,15 +18,15 @@ h1 {
   font-size: 6rem;
 }
 
-@media only screen and (max-width: 1024px) {
+/* @media only screen and (max-width: 1024px) {
   body {
     background-color: orange;
   }
-}
+} */
 @media only screen and (max-width: 768px) {
   body {
-    background-color: green;
-    padding: 8rem 4px 4px 4px;
+    /* background-color: green; */
+    padding: 8rem 2px 2px 2px;
   }
   h1 {
     font-size: 3rem;
@@ -103,9 +103,9 @@ h1 {
 }
 
 @media only screen and (max-width: 375px) {
-  body {
+  /* body {
     background-color: red;
-  }
+  } */
   h1 {
     font-size: 2.2rem;
   }
