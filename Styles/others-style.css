@@ -73,32 +73,45 @@
 }
 #bottom-info {
   background-color: rgb(220, 239, 255);
-  display: block;
+  display: flex;
   height: 25rem;
   margin: 0rem 1rem 1rem 1rem;
   padding: 0.8rem;
-  flex-direction: column;
+  flex-direction: row;
+  /* align-items: center; */
+  overflow: auto;
+  text-align: center;
+  justify-content: space-between;
   white-space: normal;
   overflow: overlay;
 }
+@media only screen and (max-width: 682px) {
+  #bottom-info {
+    flex-direction: column;
+  }
+}
 #bottom-info #beirute {
-  float: left;
-  padding: 6rem;
+  flex: 1;
+  margin: 2rem;
+  /* padding: 6rem; */
 }
 #bottom-info #bar {
-  float: left;
-  padding-top: 6rem;
-  padding-left: 20rem;
+  flex: 1;
+  margin: 2rem;
+  /* padding-top: 5rem;
+  padding-left: 1rem; */
 }
 #bottom-info #hospital {
-  float: left;
-  padding-top: 5rem;
-  padding-left: 10rem;
+  flex: 1;
+  margin: 2rem;
+  /* padding-top: 5rem;
+  padding-left: 1rem; */
 }
 #bottom-info #sushi {
-  float: right;
-  padding-top: 6rem;
-  padding-right: 15rem;
+  flex: 1;
+  margin: 2rem;
+  /* padding-top: 5rem;
+  padding-right: 1rem; */
 }
 
 .footer {
